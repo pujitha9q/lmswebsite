@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e8e8e8; /* Light gray background as in the login page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: white; /* White background for the form */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.signup-form h2 {
+    margin-bottom: 1rem;
+}
+
+.signup-form p {
+    margin-bottom: 1.5rem;
+    color: #666; /* Gray text for description */
+    font-size: 0.9rem;
+}
+
+.input-group {
+    margin-bottom: 1.2rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: #f9f9f9; /* Light background for input fields */
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #7f00ff; /* Purple button (same as the login page submit button) */
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #5900b3; /* Darker purple on hover (like the login page) */
+}
+
+.login-link {
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+.login-link a {
+    color: black; /* Black color for the log-in link, as used in the previous login form */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

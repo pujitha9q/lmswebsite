@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Students</title>
+    <link rel="stylesheet" href="updatestudent.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Update Student Information</h1>
+            <nav>
+                <a href="adminhome.html">Back to Dashboard</a>
+                <a href="userlogin.html">Logout</a>
+            </nav>
+        </header>
+        <main>
+            <section class="search-section">
+                <h2>Search Student by ID</h2>
+                <form class="search-form">
+                    <input type="text" placeholder="Enter Student ID" class="input-field" required>
+                    <button type="submit" class="btn-search">Search</button>
+                </form>
+            </section>
+
+            <section class="update-section">
+                <h2>Update Student Details</h2>
+                <form class="update-form">
+                    <div class="form-group">
+                        <label for="student-name">Name:</label>
+                        <input type="text" id="student-name" class="input-field" placeholder="Student Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-email">Email:</label>
+                        <input type="email" id="student-email" class="input-field" placeholder="Student Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-course">Course:</label>
+                        <input type="text" id="student-course" class="input-field" placeholder="Student Course" required>
+                    </div>
+                    <button type="submit" class="btn-update">Update Student</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

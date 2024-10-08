@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Profile container */
+.profile-container {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.profile-header h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Button */
+.btn-update {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #7f00ff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-update:hover {
+    background-color: #5900b3;
+}
+
+/* Input focus styles */
+input:focus {
+    outline: none;
+    border-color: #7f00ff;
+    box-shadow: 0 0 0 3px rgba(127, 0, 255, 0.2);
+}
